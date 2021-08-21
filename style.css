@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    height: 3000px;
+}
+.w {
+    width: 999px;
+    margin:0 auto;
+}
+.lfixed {
+    position: fixed;
+    width: 20px;
+    height: 80px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color:#212121;
+    border: 1px solid rgb(128, 128, 128);
+    top: 50%;
+    left: 0;
+}
+.lfixed:hover {
+    color:rgb(79, 175, 231);
+}
+
+/* 头部 */
+.header {
+    height: 155px;
+    background: url(images/bigbj.png) no-repeat top center;
+}
+.header .top {
+    height: 56px;
+}
+.header .top .lnav {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 10px 0 10px 20px;
+
+}
+.header .top .lnav ul li {
+    float: left;
+    margin: 0 7px;
+} 
+.header .top .lnav ul li a {
+    display: block;
+    font-size:14px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+.header .top .search input {
+    float: left;
+    width: 276px;
+    height: 36px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-indent: 1.5em;
+}
+.header .top .search button {
+    float: left;
+    width: 48px;
+    height: 40px;
+    border: 0;
+    margin-top: 10px;
+}
+.header .top .on .dl a {
+    display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 18px;
+    margin-top: 13px;
+    margin-left: 15px;
+    line-height: 36px;
+    color: #00a1d6;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+.header .top .rnav {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 10px 0 10px 20px;
+
+}
+.header .top .rnav ul li {
+    float: left;
+    margin: 0 7px;
+} 
+.header .top .rnav ul li a {
+    display: block;
+    font-size:14px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+.header .top .lbox a {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+    background-color: #fb7299;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-top: 10px;
+    color: #fff;
+}
+.zone {
+    height: 68px;
+    margin: 20px auto;
+}
+.zone .zleft {
+    float: left;
+    width: 200px;
+    height: 68px;
+    margin-right: 20px;
+}
+.zone .zleft li {
+    float: left;
+    width: 50px;
+    height: 68px;
+
+}
+.zone .zleft .shouye {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin: 0 0 2px 7px;
+    background: #ff5c7c;
+}
+.zone .zleft .dongtai {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin: 0 0 2px 7px;
+    background: orange;
+}
+.zone .zleft .remen {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin: 0 0 2px 7px;
+    background: #ff5c5c;
+}
+.zone .zleft .pindao {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin: 0 0 2px 7px;
+    background: #98ff5c;
+}
+.zone .zleft a {
+    display: block;
+    width: 28px;
+    height: 15px;
+    margin:10px;
+}
+.zone .zleft a:hover {
+    color: rgb(25, 85, 214);
+}
+.zone .zleft .sy {
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    color: #212121;
+}
+.zone .zleft .dt {
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    color: #212121;
+}
+.zone .zleft .rm {
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    color: #212121;
+}
+.zone .zleft .pd {
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    color: #212121;
+}
+.zone .zmid {
+    float: left;
+    width: 560px;
+    height: 68px;
+}
+.zone .zmid .wordmid {
+    float: left;
+    width: 51px;
+    height: 34px;
+    margin: 0px 8px 0px 11px;
+}
+.zone .zmid .wordmid .wml {
+    float: left;
+    width: 28px;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #212121;
+    text-align: center;
+}
+.zone .zmid .wordmid .wmr {
+    float: right;
+    font-size: 3px;
+    width: 20px;
+    color: white;
+    margin-top: 7px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #73c9e5;
+}
+.zone .zright {
+    float: right;
+    width: 200px;
+    height: 68px;
+}
+.zone .zright .wordright {
+    float: left;
+    width: 50px;
+    height: 25px;
+    margin: 4px 8px;
+}
+.zone .zright .wordright a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color:#212121;
+    margin-top: 2px;
+}
+.zone .zright .wordright a:hover {
+    color:rgb(79, 175, 231);
+}
+  
+
+
+.vbox .vleft {
+    float: left;
+    position: relative;
+    width: 459px;
+    height: 202px;
+}
+.vbox .vleft img {
+    width: 100%;
+}
+.vbox .vleft .vnav {
+    position: absolute;
+    width: 100px;
+    height: 14px;
+    right: 12px;
+    bottom: 12px;
+    background-color:transparent;
+}
+.vbox .vleft .vnav>li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-left: 8px;
+    border-radius: 50%;
+
+}
+.vbox .vleft .vnav .s .vlast img {
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+.vbox .vleft .vword {
+    position: absolute;
+    left: 6px;
+    bottom: 8px;
+    color: white;
+    font-size: 14px;
+}
+.vbox .vright {
+    float: right;
+    width: 540px;
+    height: 212px;
+}
+.vbox .vright img {
+    width: 100%;
+}
+.vbox .vright ul li {
+    float: left;
+    position: relative;
+    width: 170px;
+    height: 96px;
+    background-color: blue;
+    margin:0 0 10px 10px;
+}
+.vbox .vright .vrword {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    color: white;
+    font-size: 14px;
+}
+.tbox {
+    height: 224px;
+}
+.tbox .tbleft {
+    float: left;
+    width: 710px;
+    height: 224px;
+    margin-top: 30px;
+}
+.tbox .tbright {
+    float: right;
+    width: 265px;
+    height: 224px;
+    margin-top: 30px;
+}
+.tbox .tbleft .tbltop {
+    
+    height: 38px;
+}
+.tbox .tbleft .tbltop .ext {
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color:#212121;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.tbox .tbleft .tbltop .extr {
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    color:#212121;
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.tbox .tbleft .tbltop .extr:hover {
+    color:rgb(58, 176, 223);
+}
+.tbox .tbleft .tblbot .ad {
+    float: left;
+    width: 170px;
+    height: 172px;
+    margin: 10px 7px 0 0;
+    background-color:#fff;
+}
+.tbox .tbleft .tblbot .ad .adpic {
+    width: 170px;
+    height: 96px;
+}
+.tbox .tbleft .tblbot .ad .adpic img {
+    width: 100%;
+}
+.tbox .tbleft .tblbot .ad .adpic {
+    width: 170px;
+    height: 40px;
+}
+.tbox .tbleft .tblbot .ad .adword {
+    margin-top: 65px;
+}
+.tbox .tbleft .tblbot .ad .adword .lad {
+    display: inline-block;
+    width: 25px;
+    height: 16px;
+    font-size: 12px;
+    border:1px solid gray;
+}
+.tbox .tbright .tbrtop {
+    width: 265px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.651);
+    border-radius: 5px;
+}
+.tbox .tbright .tbrtop .wl {
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+    font-size: 13px;
+     text-align: center;
+}
+.tbox .tbright .tbrtop .wl:hover {
+    color:rgb(58, 176, 223);
+}
+.tbox .tbright .tbrbot {
+    width: 265px;
+    height: 153px;
+    margin-top: 15px;
+}
+.tbox .tbright .tbrbot img {
+    width: 100%;
+}
+.longad {
+    background-color: orange;
+    height: 83px;
+    margin-top: 290px;
+}
+.longad img {
+    width: 100%;
+}
